@@ -1,0 +1,251 @@
+@media(max-width:850px) {
+    body {
+        font-size: 19px;
+        background-image: url(spring\ korea.png);
+        background-size: cover;
+
+
+    }
+
+    .logoname {
+        display: flex;
+        justify-content: center;
+        transition: 3s;
+    }
+
+    .logoname h1 {
+        width: 80%;
+        border: solid #dca7daea;
+        background-color: #e8cce7c1;
+        display: flex;
+        justify-content: center;
+        color: black;
+        transition: 500ms;
+    }
+
+    .logoname:hover {
+        font-size: 20px;
+        transition: 500ms;
+    }
+
+    .navbar {
+        background-color: #8b93a565;
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+        /* flex-wrap: wrap; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        border-bottom: solid black;
+    }
+
+    .navbar div {
+        margin-bottom: 10px;
+    }
+
+    #navbuttons {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        height: 3em;
+        align-self: center;
+    }
+
+    #navbuttons button {
+
+        background-color: #e8cce7c1;
+        border-radius: 1em;
+        padding: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        box-shadow: -0.1em 0.5em 0.5em -0.2em rgb(198, 84, 194);
+        transition: 500ms;
+    }
+
+    #navbuttons button:hover {
+        box-shadow: 0.5em 0.5em 0.5em rgb(198, 84, 194);
+        transition: 500ms;
+
+    }
+
+    #navbuttons button a {
+
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+    .navbar #koreanflag {
+        background-image: url(koreanflag.png);
+        background-size: cover;
+        height: 100px;
+        width: 170px;
+        /* border: solid #92afd780; */
+        /* box-shadow: 0.5em 0.5em 0.5em -0.1em; */
+    }
+
+    .searchbox {
+        font-size: 1.2em;
+    }
+
+    #searchbar {
+        font-size: 0.8em;
+        background: transparent;
+        background-color: rgba(234, 195, 252, 0.628);
+    }
+
+
+    .bodytext {
+        /* width: 60%; */
+        margin: 3em;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        background-color: #e8cce7d3;
+    }
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        background-color: #e8cce7d3;
+    }
+}
+
+body {
+    font-size: 19px;
+    background-image: url(spring\ korea.png);
+    background-size: cover;
+
+
+}
+
+.logoname {
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+
+.logoname h1 {
+    width: 10em;
+    border: solid #dca7daea;
+    background-color: #e8cce7c1;
+    display: flex;
+    justify-content: center;
+    color: black;
+    transition: 500ms;
+}
+
+.logoname:hover {
+    font-size: 20px;
+    transition: 500ms;
+}
+
+.navbar {
+    background-color: #8b93a565;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black;
+}
+
+
+
+#navbuttons {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    align-self: center;
+}
+
+#navbuttons button {
+
+    background-color: #e8cce7c1;
+    border-radius: 1em;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: -0.1em 0.5em 0.5em -0.2em rgb(198, 84, 194);
+    transition: 500ms;
+}
+
+#navbuttons button:hover {
+    box-shadow: 0.5em 0.5em 0.5em rgb(198, 84, 194);
+    transition: 500ms;
+
+}
+
+#navbuttons button a {
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.navbar #koreanflag {
+    background-image: url(koreanflag.png);
+    background-size: cover;
+    height: 100px;
+    width: 170px;
+    /* border: solid #92afd780; */
+    /* box-shadow: 0.5em 0.5em 0.5em -0.1em; */
+}
+
+.searchbox {
+    font-size: 1.2em;
+}
+
+#searchbar {
+    font-size: 0.8em;
+    background: transparent;
+    background-color: rgba(234, 195, 252, 0.628);
+}
+
+
+.bodytext {
+    /* width: 60%; */
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: #e8cce7d3;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: #e8cce7d3;
+}
+
+.contactbox form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactbox form input{
+    background: transparent;
+    background-color: rgba(234, 195, 252, 0.108);
+
+}
+
+.contactbox form textarea{
+    background: transparent;
+    background-color: rgba(234, 195, 252, 0.108);
+    
+}
+
+.contactbox form button{
+    background: transparent;
+    background-color: rgba(234, 195, 252, 0.108);
+    
+}
