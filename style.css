@@ -288,3 +288,12 @@ footer {
     width: 30%;
     
 }
+
+table{
+    border: solid black;
+
+}
+
+table td{
+    border: solid black;
+}
