@@ -7,6 +7,11 @@
 
     }
 
+    .additionalbackground{
+ 
+        background-color: rgba(0, 0, 0, 0.443);
+    }
+
     .logoname {
         display: flex;
         justify-content: center;
@@ -113,7 +118,27 @@
 
         align-items: center;
         background-color: #e8cce7d3;
+
+
     }
+
+    .bodytextgal{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    .bodytextgal img{
+        width: 30%;
+        
+    }
+}
+
+.additionalbackground{
+ 
+    background-color: rgba(0, 0, 0, 0.443);
 }
 
 body {
@@ -170,13 +195,15 @@ body {
     padding: 1em;
     margin-left: 1em;
     margin-right: 1em;
-    box-shadow: -0.1em 0.5em 0.5em -0.2em rgb(198, 84, 194);
+ 
     transition: 500ms;
 }
 
 #navbuttons button:hover {
-    box-shadow: 0.5em 0.5em 0.5em rgb(198, 84, 194);
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.8em 0.8em -0.4em rgb(169, 5, 163);
     transition: 500ms;
+    /* cursor: pointer; */
 
 }
 
@@ -213,7 +240,7 @@ body {
     margin: 3em;
     display: flex;
     flex-direction: column;
-
+    padding: 1em;
     align-items: center;
     background-color: #e8cce7d3;
 }
@@ -247,5 +274,17 @@ footer {
 .contactbox form button{
     background: transparent;
     background-color: rgba(234, 195, 252, 0.108);
+    
+}
+.bodytextgal{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.bodytextgal img{
+    width: 30%;
     
 }
